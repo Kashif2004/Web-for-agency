@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Agency Meta</title>
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="header">
+        <a href="#home" class="logo">Agency Meta</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#team">team</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+    <!-- /header  -->
+    <!-- home  -->
+    <div class="home" id="home">
+        <div class="swiper home-slid">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/slide/slide-1.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                        <h3>Grow Your Business</h3>
+                        <p>Helping Business Security & Peace of Mind for Your Family</p>
+                        <a href="#" class="btn">get start</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/slide/slide-2.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                        <h3>Lorem Ipsum Dolor</h3>
+                        <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem</p>
+                        <a href="#" class="btn">get start</a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/slide/slide-3.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                        <h3>Sequi ea ut et est quaerat</h3>
+                        <p>We're In The Business Of Helping You Start Your Business</p>
+                        <a href="#" class="btn">get start</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <!-- /home  -->
+    <!-- about  -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="images">
+                <img src="img/about.jpg" alt="image">
+            </div>
+            <div class="box">
+                <h1>Voluptatem dignissimos provident quasi</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                <div class="content">
+                    <div class="icons">
+                        <div class="icon-about">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h4>Corporis voluptates sit</h4>
+                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        </div>
+                        <div class="icon-about">
+                            <i class="fa-solid fa-cube"></i>
+                            <h4>Ullamco laboris nisi</h4>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="icon-about">
+                            <i class="fa-solid fa-images"></i>
+                            <h4>Labore consequatur</h4>
+                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                        </div>
+                        <div class="icon-about">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h4>Beatae veritatis</h4>
+                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="achiv">
+            <div class="content">
+                <i class="fa-solid fa-face-smile"><span>232</span></i>
+                <p>Happy Clients <br>
+                    consequuntur quae
+                </p>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-book"><span>521</span></i>
+
+                <p>Projects adipisci <br>
+                    atque cum quia aut
+                </p>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-headset"><span>1463</span></i>
+                <p>24 Hours Of Support <br>
+                    commodi quaerat
+                </p>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-users"><span>232</span></i>
+
+                <p>Hard Workers rerum <br>
+                    lorem asperiores dolor
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- /about  -->
+    <!-- services  -->
+    <section class="services" id="services">
+
+        <h2 class="heading">our services</h2>
+
+
+        <div class="row">
+            <div class="box">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>
+                    Expert Coder
+                </h3>
+                <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the
+                    prototype looks finished by.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h3>
+                    Creative Designer
+                </h3>
+                <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the
+                    prototype looks finished by.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3>
+                    Wordpress Developer
+                </h3>
+                <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the
+                    prototype looks finished by.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-binoculars"></i>
+                <h3>
+                    Social Marketer
+                </h3>
+                <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the
+                    prototype looks finished by.</p>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <i class="fa-solid fa-sun"></i>
+                    <h3>
+                        Seo Expart
+                    </h3>
+                </div>
+                <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the
+                    prototype looks finished by.</p>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <i class="fa-solid fa-calendar"></i>
+                    <h3>
+                        24/7 Support
+                    </h3>
+                </div>
+                <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the
+                    prototype looks finished by.</p>
+            </div>
+        </div>
+    </section>
+    <!-- /services  -->
+    <section class="why">
+        <h2 class="heading">WHY US</h2>
+        <h4>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</h4>
+        <div class="row">
+            <div class="box">
+                <h1>01</h1>
+                <p>Lorem Ipsum</p>
+                <span>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</span>
+            </div>
+
+
+            <div class="box">
+                <h1>02</h1>
+                <p>Repellat Nihil</p>
+                <span>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</span>
+            </div>
+
+            <div class="box">
+                <h1>03</h1>
+                <p>Ad ad velit qui</p>
+                <span>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery portfolio" id="gallery">
+        <h2 class="heading">Our portfolio</h2>
+        <div class="row">
+            <div class="box">
+                <img src="img/portfolio/portfolio-1.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/portfolio/portfolio-2.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/portfolio/portfolio-3.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/portfolio/portfolio-8.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/portfolio/portfolio-5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/portfolio/portfolio-6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- /portfolio  -->
+    <section class="team" id="team">
+        <h2 class="heading">Our team</h2>
+        <div class="row">
+            <div class="box">
+                <div class="images">
+                    <img src="img/team/team-1.jpg" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Branden Jhon</h3>
+                    <div class="sochial">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="img/team/team-2.jpg" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Sarah Jhonson</h3>
+                    <div class="sochial">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="img/team/team-3.jpg" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Kane Anderson</h3>
+                    <div class="sochial">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="img/team/team-4.jpg" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Amanda Micheal</h3>
+                    <div class="sochial">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- .contact  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">contact us</h2>
+        <div class="box">
+            <div class="content">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <div>call: +923160112579</div>
+                <div>monday-friday (9am-5pm) </div>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-envelope"></i>
+                <div>email: kashifsiddique732@gmail.com</div>
+                <div>web: www.exaple.com</div>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>location: Asia</div>
+                <div>Pakistan Karachi</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="ifarm">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28939.907973075544!2d66.98943353963304!3d24.94948933767648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36ae71fc40a31%3A0xcfbb1d61e6ab566d!2sOrangi%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2ssc!4v1654263697145!5m2!1sen!2ssc"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-c">
+                <form action="" name="myForm" id="contactForm">
+                    <input type="text" id="name" name="fname" placeholder="name">
+                    <input type="email" id="email" name="email" placeholder="email">
+                    <input type="num" id="phone" name="phone" placeholder="phone">
+                    <textarea name="text" id="textarea" cols="30" rows="10" placeholder="Write your message"></textarea>
+                    <input type="submit" value="send message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /contact  -->
+
+    <!-- footer  -->
+    <footer class="footer" id="footer">
+        <div class="box-containr">
+
+            <div class="share">
+                <h3>Restaurantly</h3>
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-twitter"></a>
+                <a href="#" class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-linkedin"></a>
+                <a href="#" class="fa-brands fa-pinterest"></a>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+    </footer>
+    
+    <!-- /footer  -->
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyAB2aQuodzLOUl1cF03_gP1llPceFGRzqM",
+            authDomain: "grovine-3c62b.firebaseapp.com",
+            projectId: "grovine-3c62b",
+            storageBucket: "grovine-3c62b.appspot.com",
+            messagingSenderId: "969386088901",
+            appId: "1:969386088901:web:a819bc4648c9a638a8d3ac"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
